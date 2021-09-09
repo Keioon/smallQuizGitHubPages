@@ -120,9 +120,7 @@ const showAllAnswers = () => {
       `<h4>${el.correctAnswer == el.givenAnswer.value ? '1/1' : '0/1'}</h4>
       <div class="questionBox">
         <h3 class="question">${el.txt}</h3>
-        <pre>
-          ${el.pre}
-        </pre>
+        <pre>${el.pre}</pre>
       </div>
       <div class="answerBox">
         <ul>

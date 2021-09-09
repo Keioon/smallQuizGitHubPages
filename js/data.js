@@ -134,11 +134,12 @@ dataSources.questions = [
   {
     id: '10',
     txt: 'What does this code do?',
-    pre: `&lt;audio controls&gt;
-  &lt;source src='sound.mp3' type="audio/mpeg"&gt;
-  &lt;source src='sound.ogg' type="audio/ogg"&gt;
-  &lt;source src='sound.wav' type="audio/wav"&gt;
-&lt;/audio&gt;`,
+//     pre: `&lt;audio controls&gt; 
+//   &lt;source src='sound.mp3' type="audio/mpeg"&gt;
+//   &lt;source src='sound.ogg' type="audio/ogg"&gt;
+//   &lt;source src='sound.wav' type="audio/wav"&gt;
+// &lt;/audio&gt;`,
+    pre: `&lt;audio controls&gt;<br>  &lt;source src='sound.mp3' type="audio/mpeg"&gt;<br>  &lt;source src='sound.ogg' type="audio/ogg"&gt;<br>  &lt;source src='sound.wav' type="audio/wav"&gt;<br>&lt;/audio&gt;`,
     answers: {
       a: 'The browser choose the best audio format to play with JavaScript-provided controls.',
       b: 'The browser choose the first supported sound file and will loop the sound until the user stop it.',
